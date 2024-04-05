@@ -52,7 +52,7 @@ def main():
     image = np.array(imageio.imread(opt.input_file))
     label_map = util.read_label_mapping(opt.label_map_file, label_from='id', label_to='nyu40id')
     mapped_image = map_label_image(image, label_map)
-    # imageio.imwrite(opt.output_file, mapped_image)
+    imageio.imwrite(opt.output_file, mapped_image)
     # uncomment to save out visualization
     util.visualize_label_image(os.path.splitext(opt.output_file)[0] + '_vis.jpg', mapped_image)
 

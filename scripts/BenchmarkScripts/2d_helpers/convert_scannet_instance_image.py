@@ -80,10 +80,10 @@ def main():
     label_map = util.read_label_mapping(opt.label_map_file, label_from='id', label_to='nyu40id')
     mapped_label = map_label_image(label_image, label_map)
     output_instance_image = make_instance_image(mapped_label, instance_image)
-    # imageio.imwrite(opt.output_file, output_instance_image)
+    imageio.imwrite(opt.output_file, output_instance_image)
     # uncomment to save out visualization
     # util.visualize_instance_image(os.path.splitext(opt.output_file)[0] + '_vis.jpg', output_instance_image)
-    util.visualize_instance_image(os.path.splitext(opt.output_file)[0] + '_vis-labels.jpg', get_labels_from_instance(output_instance_image))
+    # util.visualize_instance_image(os.path.splitext(opt.output_file)[0] + '_vis-labels.jpg', get_labels_from_instance(output_instance_image))
 
 
 if __name__ == '__main__':
