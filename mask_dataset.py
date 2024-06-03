@@ -1,10 +1,8 @@
 import os
-
 import numpy as np
 import matplotlib.pyplot as plt
 import open3d as o3d
 import cv2
-
 import json
 
 def load_scannet_scene(scan_path, scan):
