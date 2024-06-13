@@ -1,6 +1,7 @@
-custom_dataset
+training_data
 data
 logs
 outputs
 plots
 videos
+unzipped
