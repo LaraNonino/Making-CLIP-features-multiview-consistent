@@ -1,0 +1,31 @@
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Configure stats pid to 59801
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Loading settings from /cluster/home/lnonino/.config/wandb/settings
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Loading settings from /cluster/home/lnonino/Making-CLIP-features-multiview-consistent/euler/wandb/settings
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'euler/fine-tune_euler.py', 'program_abspath': '/cluster/home/lnonino/Making-CLIP-features-multiview-consistent/euler/fine-tune_euler.py', 'program': '/cluster/home/lnonino/Making-CLIP-features-multiview-consistent/euler/fine-tune_euler.py'}
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:_log_setup():520] Logging user logs to /cluster/home/lnonino/Making-CLIP-features-multiview-consistent/euler/wandb/offline-run-20240625_164854-ie1ymizb/logs/debug.log
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:_log_setup():521] Logging internal logs to /cluster/home/lnonino/Making-CLIP-features-multiview-consistent/euler/wandb/offline-run-20240625_164854-ie1ymizb/logs/debug-internal.log
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:init():560] calling init triggers
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:init():610] starting backend
+2024-06-25 16:48:54,608 INFO    MainThread:59801 [wandb_init.py:init():614] setting up manager
+2024-06-25 16:48:54,610 INFO    MainThread:59801 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-25 16:48:54,612 INFO    MainThread:59801 [wandb_init.py:init():622] backend started and connected
+2024-06-25 16:48:54,615 INFO    MainThread:59801 [wandb_init.py:init():711] updated telemetry
+2024-06-25 16:48:54,630 INFO    MainThread:59801 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-25 16:48:54,636 INFO    MainThread:59801 [wandb_init.py:init():795] starting run threads in backend
+2024-06-25 16:48:57,885 INFO    MainThread:59801 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-25 16:48:57,886 INFO    MainThread:59801 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-25 16:48:57,886 INFO    MainThread:59801 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-25 16:48:57,886 INFO    MainThread:59801 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-25 16:48:57,888 INFO    MainThread:59801 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-25 16:48:57,888 INFO    MainThread:59801 [wandb_watch.py:watch():51] Watching
+2024-06-26 19:35:15,645 INFO    MainThread:59801 [wandb_run.py:_finish():2109] finishing run Making CLIP features multiview consistent/ie1ymizb
+2024-06-26 19:35:15,646 INFO    MainThread:59801 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-26 19:35:15,647 INFO    MainThread:59801 [wandb_run.py:_restore():2332] restore
+2024-06-26 19:35:15,647 INFO    MainThread:59801 [wandb_run.py:_restore():2338] restore done
+2024-06-26 19:35:16,831 INFO    MainThread:59801 [wandb_run.py:_footer_history_summary_info():3988] rendering history
+2024-06-26 19:35:16,832 INFO    MainThread:59801 [wandb_run.py:_footer_history_summary_info():4020] rendering summary
